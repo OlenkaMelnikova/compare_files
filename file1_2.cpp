@@ -1,4 +1,4 @@
-// file1_2.cpp: определяет точку входа для консольного приложения.
+// file1_2.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
@@ -33,7 +33,7 @@ int main()
 	return 0;*/
 	fin1.open(filename1);
 	fin2.open(filename2);
-	if (!!fin1.is_open()) {
+	if (!fin1.is_open()) {
 		cout << filename1 << "Can't open first file.\n" << endl;
 	}
 	if (!fin2.is_open()) {
